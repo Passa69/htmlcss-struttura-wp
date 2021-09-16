@@ -4,28 +4,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 80%;
+    margin: 10px auto;
 }
 
 /* header */
 
 header {
+    /* regole debug */
     height: 100px;
-    width: 100%;
     background-color: rgb(255, 124, 146);
 }
 
 /* main */
 
-#head {
+/* intestazione */
+
+#container1 {
+    /* regole debug */
     background-color: yellow;
     height: 300px;
     width: 100%;
 }
 
+/* corpo */
+
+#container2 {
+    /* regole debug */
+    background-color: blue;
+    height: 500px;
+    width: 100%;
+}
+
+/* corpo, posizionamento */
+#container2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.head {
+    /* regole debug */
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.widget1 {
+    float: left;
+    width: 15%;
+    /* regole debug */
+    height: 380px;
+    background-color: lightblue;
+    margin-right: 20px;
+}
+
+.content { 
+    float: left;
+    width: 65%;
+    /* regole debug */
+    height: 380px;
+    background-color: lightblue;  
+}
+
+.widget2 { 
+    float: right;
+    width: 15%;
+    /* regole debug */
+    height: 380px;
+    background-color: lightblue;
+}
+
 /* footer */
 
 footer {
+    /* regole debug */
     height: 50px;
-    width: 100%;
     background-color: purple;
 }
