@@ -1,5 +1,31 @@
+/* impostazioni generali */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 124, 146);
+}
+
+/* main */
+
+#head {
+    background-color: yellow;
+    height: 300px;
+    width: 100%;
+}
+
+/* footer */
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: purple;
 }
